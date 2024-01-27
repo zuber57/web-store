@@ -965,6 +965,75 @@ button.newsletter__button {
 .email_input input::placeholder {
   font-size: 18px;
 }
+.vibe_desc{
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+  padding: 5px;
+  gap: 5px;
+    width: 100%;
+    height: fit-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+    position: absolute;
+    bottom: 0px;
+
+  }
+  /* .vibe_vibe video{
+    max-width:  100%;
+  } */
+  .vibes{
+    position: relative;
+    margin-top: 25px !important;
+    margin-right: auto;
+    margin-bottom: 25px !important;
+    margin-left: auto;
+    width: calc(13% - 20px);
+    height: 305.067px;
+    border-radius: 5px;
+    box-shadow: rgb(176, 176, 176) 0px 0px 10px 3px;
+    border-width: 0px;
+    border-color: white;
+    overflow: hidden;
+    cursor: pointer
+  }
+.vibe_vibe {
+  width: 181px;
+  position: relative;
+}
+.vibe_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.reel_img{
+ 
+    width: 51.48px;
+    height: 51.48px;
+    box-shadow: rgb(176, 176, 176) 0px 0px 5px 2px;
+    border-radius: 5px;
+    border-width: 0px;
+    border-color: white;
+    overflow: hidden;
+    background-color: rgb(220, 220, 220);
+}
+.reel_text {
+  width: 115.12px;
+  height: 51.48px;
+  border-radius: 5px;
+    text-align: left;
+    text-overflow: ellipsis !important;
+
+}
+.reel_text p{
+  font-weight: normal;
+    color: white !important;
+    font-size: 9.012px !important;
+    line-height: 120% !important;
+    overflow: hidden !important;
+}
 
 .payment-icons li {
   list-style: none;
@@ -1004,10 +1073,24 @@ button.newsletter__button {
 .footer-details li {
   list-style: none;
 }
+.reel_img img{
+  width: 100%;
+}
 
 footer {
   margin-top: 60px;
   background-color: black;
+}
+@media screen and (max-width:600px) {
+  .offer_image{
+    flex-wrap: wrap;
+  }
+  .vibes{
+    min-width: 180px;
+  }
+  .vibe_container{
+    overflow: auto;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -1016,6 +1099,12 @@ footer {
   .item_img {
     width: 90px;
     height: 90px;
+}
+.vibes{
+  min-width: 180px;
+ }
+ .vibe_container{
+  overflow: auto;
 }
 
 .category_wrapper {
