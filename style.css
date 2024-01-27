@@ -235,9 +235,8 @@ h2 {
 }
 
 .top_header .splide {
-  padding: 0 4rem;
+  padding: 0 !important;
 }
-
 .head_cont {
   display: flex;
   align-items: center;
@@ -1013,6 +1012,7 @@ footer {
 
 @media screen and (max-width: 769px) {
   /* .items_row{margin-right: 0 !important;} */
+
   .item_img {
     width: 90px;
     height: 90px;
@@ -1038,7 +1038,7 @@ footer {
   .product_card {
     width: 100%;
   }
-
+  
   .blog_cards {
     overflow: auto;
   }
@@ -1096,7 +1096,7 @@ footer {
   }
 
   .header_logo {
-    width: 100%;
+    width: 30%;
   }
 
   .category_wrapper .splide {
@@ -1165,5 +1165,11 @@ footer {
 
   .announment_bar {
     font-size: 10px;
+  }
+  .text-pro p{
+    font-size: 16px;
+  }
+  .text-pro h1{
+    font-size: 26px;
   }
 }

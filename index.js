@@ -53,7 +53,11 @@ document.addEventListener("DOMContentLoaded", () => {
    permove: "1",
    autoplay: true,
    breakpoints: {
-     640: {
+    768: {
+      perPage: 2,
+      gap: ".7rem",
+    },
+    640: {
        perPage: 2,
        gap: ".7rem",
      },
@@ -74,8 +78,14 @@ document.addEventListener("DOMContentLoaded", () => {
    permove: "1",
    autoplay: true,
    breakpoints: {
+    768: {
+      perPage: 2,
+      arrows:false,
+      gap: ".7rem",
+    },
      640: {
        perPage: 2,
+       arrows:false,
        gap: ".7rem",
      },
      480: {
@@ -116,6 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
    breakpoints: {
      640: {
        perPage: 2,
+       arrows:false,
        gap: ".7rem",
      },
      480: {
@@ -137,6 +148,10 @@ document.addEventListener("DOMContentLoaded", () => {
    permove: "1",
    autoplay: true,
    breakpoints: {
+    768: {
+      perPage: 5,
+      gap: ".7rem",
+    },
      640: {
        perPage: 5,
        gap: ".7rem",
